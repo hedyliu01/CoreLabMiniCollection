@@ -19,3 +19,31 @@ function turnBlack() {
  }
 
  blackSquare.addEventListener("click", turnBlack);
+
+ // oasis images
+
+ let oasis = document.querySelector(".oasis");
+
+ // orange square
+ let increaseOasisImage = document.querySelector(".bigger-oasis");
+ increaseOasisImage.addEventListener("mouseover", function() {
+   oasis.classList.add("active");
+ })
+
+ increaseOasisImage.addEventListener("mouseout", function() {
+   Oasis.classList.remove("active");
+ })
+
+  // queen images
+
+  let queen = document.querySelector(".queen");
+
+  // black square
+  let increaseQueenImage = document.querySelector(".bigger-Queen");
+  increaseOasisImage.addEventListener("mouseover", function() {
+    queen.classList.add("active");
+  })
+ 
+  increaseQueenImage.addEventListener("mouseout", function() {
+    Queen.classList.remove("active");
+  })

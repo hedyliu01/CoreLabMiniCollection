@@ -32,3 +32,25 @@ body {
     margin: 1rem;
   }
 
+  .oasis{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 300px;
+    display: none;
+  }
+
+  .oasis.active{
+    display: flex;
+  }
+
+  .queen{
+    position: absolute;
+    top: 5%;
+    right: 12%;
+    width: 2re;
+  }
+
+  .queen.active{
+    width: 5rem;
+  }
